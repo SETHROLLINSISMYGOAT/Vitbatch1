@@ -1,6 +1,7 @@
 package com.example.vitbatch1
 
 import android.os.Bundle
+import android.util.Log
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -18,11 +19,6 @@ class homeActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        //if(intent.extras !=null) {
-            var data = intent.extras?.getString(key:"nkey")
-        Log.i(tag: "homeActivity",msg:"data is ="+data)
-        val homeTextView:TextView=findViewById(R.id.tyHome)
-        homeTextView.setText(data)
 
 
     }

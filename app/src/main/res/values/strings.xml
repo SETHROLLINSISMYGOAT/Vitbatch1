@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Vitbatch1</string>
+    <string name="text">"Happy Birthday Friend</string>
+
+    <string name="todo">TODO</string>
+
 </resources>
