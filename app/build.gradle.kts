@@ -6,6 +6,9 @@ plugins {
 android {
     namespace = "com.example.vitbatch1"
     compileSdk = 34
+    buildFeatures{
+        viewBinding = true
+    }
 
     defaultConfig {
         applicationId = "com.example.vitbatch1"
