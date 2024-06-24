@@ -14,48 +14,25 @@ class MainActivity<Dp> : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        setContent {
+
             TranslateAppTheme {
                 Box {
                     Column(
                         modifier = Modifier
                             .fieldModifiers()
-                            .padding()
+
                     )
 
                 }
 
-        }
+            }
+
 
     }
 
-    fun Column(modifier: Modifier) {
+    private fun Column(modifier: Int) {
 
     }
-}
-
-    private fun Column(modifier: Modifier) {
-        TODO("Not yet implemented")
-    }
-
-    private fun Column(modifier: Modifier) {
-
-    }
-
-
-}
-
-private fun Int.padding(): Modifier {
-
-}
-
-private fun setContent(function: () -> Unit) {
-
-    }
-
-}
-
-class Colomn(modifier: Any, function: () -> Unit) {
 
 }
 
