@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Vitbatch1</string>
+    <string name="app_name" translatable="false">Vitbatch1</string>
     <string name="hello_world">"Hello World</string>
 
     <string name="translate">Text should be translated</string>

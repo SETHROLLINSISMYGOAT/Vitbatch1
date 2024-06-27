@@ -15,4 +15,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "Vitbatch1"
 include(":app")
+include(":app")
+include(":app")
  
