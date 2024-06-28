@@ -3,5 +3,7 @@
     <string name="hello_world">"Hello World</string>
 
     <string name="translate">Text should be translated</string>
+    <string name="todo" />
+    <string name="text" />
 
 </resources>
